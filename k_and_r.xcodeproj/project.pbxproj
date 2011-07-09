@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AF414BF113C7E2050017C312 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF414BF013C7E2050017C312 /* main.c */; };
-		AF414BFC13C7E3430017C312 /* f_to_c.c in Sources */ = {isa = PBXBuildFile; fileRef = AF414BFA13C7E3430017C312 /* f_to_c.c */; };
-		AF414BFF13C7EE620017C312 /* print_eof.c in Sources */ = {isa = PBXBuildFile; fileRef = AF414BFD13C7EE620017C312 /* print_eof.c */; };
+		AFADEF9113C84EA500D320A6 /* f_to_c.c in Sources */ = {isa = PBXBuildFile; fileRef = AFADEF8D13C84EA500D320A6 /* f_to_c.c */; };
+		AFADEF9213C84EA500D320A6 /* print_eof.c in Sources */ = {isa = PBXBuildFile; fileRef = AFADEF8F13C84EA500D320A6 /* print_eof.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +28,10 @@
 		AF414BEC13C7E2050017C312 /* k_and_r */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = k_and_r; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414BF013C7E2050017C312 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AF414BF213C7E2050017C312 /* k_and_r.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = k_and_r.1; sourceTree = "<group>"; };
-		AF414BFA13C7E3430017C312 /* f_to_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = f_to_c.c; sourceTree = "<group>"; };
-		AF414BFB13C7E3430017C312 /* f_to_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_to_c.h; sourceTree = "<group>"; };
-		AF414BFD13C7EE620017C312 /* print_eof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print_eof.c; sourceTree = "<group>"; };
-		AF414BFE13C7EE620017C312 /* print_eof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = print_eof.h; sourceTree = "<group>"; };
+		AFADEF8D13C84EA500D320A6 /* f_to_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = f_to_c.c; sourceTree = "<group>"; };
+		AFADEF8E13C84EA500D320A6 /* f_to_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = f_to_c.h; sourceTree = "<group>"; };
+		AFADEF8F13C84EA500D320A6 /* print_eof.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print_eof.c; sourceTree = "<group>"; };
+		AFADEF9013C84EA500D320A6 /* print_eof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = print_eof.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,23 +64,22 @@
 		AF414BEF13C7E2050017C312 /* k_and_r */ = {
 			isa = PBXGroup;
 			children = (
-				AF414BF913C7E31C0017C312 /* chapter1 */,
+				AFADEF8C13C84EA500D320A6 /* chapter1 */,
 				AF414BF013C7E2050017C312 /* main.c */,
 				AF414BF213C7E2050017C312 /* k_and_r.1 */,
 			);
 			path = k_and_r;
 			sourceTree = "<group>";
 		};
-		AF414BF913C7E31C0017C312 /* chapter1 */ = {
+		AFADEF8C13C84EA500D320A6 /* chapter1 */ = {
 			isa = PBXGroup;
 			children = (
-				AF414BFA13C7E3430017C312 /* f_to_c.c */,
-				AF414BFB13C7E3430017C312 /* f_to_c.h */,
-				AF414BFD13C7EE620017C312 /* print_eof.c */,
-				AF414BFE13C7EE620017C312 /* print_eof.h */,
+				AFADEF8D13C84EA500D320A6 /* f_to_c.c */,
+				AFADEF8E13C84EA500D320A6 /* f_to_c.h */,
+				AFADEF8F13C84EA500D320A6 /* print_eof.c */,
+				AFADEF9013C84EA500D320A6 /* print_eof.h */,
 			);
-			name = chapter1;
-			path = ../../chapter1;
+			path = chapter1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF414BF113C7E2050017C312 /* main.c in Sources */,
-				AF414BFC13C7E3430017C312 /* f_to_c.c in Sources */,
-				AF414BFF13C7EE620017C312 /* print_eof.c in Sources */,
+				AFADEF9113C84EA500D320A6 /* f_to_c.c in Sources */,
+				AFADEF9213C84EA500D320A6 /* print_eof.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +211,7 @@
 				AF414BF713C7E2050017C312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
