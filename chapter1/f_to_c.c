@@ -18,10 +18,10 @@
  */
 int printConversionTable() {
   float celsiusValue;
-  printf("F\tC\n");
+  printf("%3s %6s\n", "F", "Cy");
   for (int fahr = LOWER_BOUND; fahr <= UPPER_BOUND; fahr += STEP) {
     celsiusValue = 5.0/9.0 * (fahr - 32);
-    printf("%.2d\t%.2f\n", fahr, celsiusValue);
+    printf("%3d %6.2f\n", fahr, celsiusValue);
   }
   return 0;
 }
