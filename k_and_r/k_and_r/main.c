@@ -12,6 +12,8 @@
 int main (int argc, const char * argv[])
 {
 
-  return printConversionTable();
+  printFarenheitToCelsiusConversionTable();
+  printf("\n");
+  printCelsiusToFarenheitConversionTable();
 }
 

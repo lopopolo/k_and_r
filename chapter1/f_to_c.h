@@ -6,4 +6,6 @@
 //  Copyright 2011 hyperbo.la. All rights reserved.
 //
 
-int printConversionTable();
+int printFarenheitToCelsiusConversionTable();
+
+int printCelsiusToFarenheitConversionTable();
