@@ -1,5 +1,5 @@
 //
-//  main.c
+//  print_eof.c
 //  k_and_r
 //
 //  Created by Ryan Lopopolo on 7/8/11.
@@ -9,9 +9,7 @@
 #include <stdio.h>
 #include "print_eof.h"
 
-int main (int argc, const char * argv[])
-{
-
-  printEOF();
+int printEOF() {
+  printf("%d\n", EOF);
+  return 0;
 }
-
