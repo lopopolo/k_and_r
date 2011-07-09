@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "print_eof.h"
 
-int printEOF() {
+int printEOF(void) {
   printf("%d\n", EOF);
   return 0;
 }

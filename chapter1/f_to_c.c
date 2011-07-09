@@ -16,7 +16,7 @@
 /** print Farenheit-Celsius table for 
  *  fahr in 0, 20, ..., 300
  */
-int printFarenheitToCelsiusConversionTable() {
+int printFarenheitToCelsiusConversionTable(void) {
   float celsiusValue;
   printf("%3s %6s\n", "F", "C");
   for (int fahr = LOWER_BOUND; fahr <= UPPER_BOUND; fahr += STEP) {
@@ -29,7 +29,7 @@ int printFarenheitToCelsiusConversionTable() {
 /** print Celsius-Farenheit table for 
  *  celsius in 0, 20, ..., 300
  */
-int printCelsiusToFarenheitConversionTable() {
+int printCelsiusToFarenheitConversionTable(void) {
   float fahrValue;
   printf("%3s %6s\n", "C", "F");
   for (int cel = LOWER_BOUND; cel <= UPPER_BOUND; cel += STEP) {

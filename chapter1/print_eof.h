@@ -6,4 +6,4 @@
 //  Copyright 2011 hyperbo.la. All rights reserved.
 //
 
-int printEOF();
+int printEOF(void);
